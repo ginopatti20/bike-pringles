@@ -42,7 +42,7 @@
 }
 
 .content {
-  background: url(/img/portada-desktop.jpg);
+  background: url(/img/portada-desktop.JPG);
   background-size: cover;
   height: 800px;
   position: relative;
@@ -176,6 +176,10 @@
   font-size: 1.5em;
   margin-bottom: 20px;
 }
+.ubicacion iframe {
+  width: 90%;
+  height: 600px;
+}
 
 .footer {
   height: 200px;
@@ -208,7 +212,7 @@
     color: #e2e2e2;
   }
   .content {
-    background: url(/img/portada-mobile.jpg);
+    background: url(/img/portada-mobile.JPG);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -310,7 +314,8 @@
     flex-direction: column;
   }
   .ubicacion iframe {
-    width: 400px;
+    width: 300px;
+    height: 500px;
   }
   .ubicacion h3 {
     font-size: 1.5em;
