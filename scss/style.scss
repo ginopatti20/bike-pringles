@@ -1,6 +1,6 @@
 //HEADER
 .header{
-    background-color: #b32929;
+    background-color: black;
     color: #e2e2e2;    
     position: fixed;
     width: 100%;
@@ -10,6 +10,11 @@
         .container{
             .navbar-brand{
                 color: #e2e2e2;
+                img{
+                    width: 80px;
+                    height: 80px;
+                    object-fit: cover;
+                }
             }
             .navbar-nav{
                 .nav-item{
@@ -47,11 +52,13 @@
 
 //MAIN
 .content{
-    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img{
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        margin-top: 80px;
     }
 }
 //marcas
@@ -220,18 +227,11 @@
             }
         }
     }
-    .scrolled{
-        color: #e2e2e2;
-    }
-    .content{
-        background: url(/img/portada-mobile.JPG);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
     .marcas{
         display: flex;
         justify-content: space-around;
         height: auto;
+        margin-top: 50px;
         .marcas-item{
             width: 100px;
             height: 100px;
@@ -244,9 +244,9 @@
     }
 
     .servicios-container{
-    height: auto;
     flex-direction: column;
     align-items: center;
+    height: auto;
     .h3-servicios{
         font-size: 1em;
         margin-top: 20px;
@@ -258,6 +258,7 @@
             width: 350px;
             height: 400px;
             margin-bottom: 60px;
+            padding-bottom: 60px;
             h4{
                 margin-top: 20px;
             }
