@@ -1,10 +1,9 @@
 .header {
+  background-color: #b32929;
   color: #e2e2e2;
-  height: 80px;
-  position: sticky;
-  z-index: 2;
+  position: fixed;
+  width: 100%;
   transition: 0.3s ease-in-out;
-  top: 0;
 }
 .header .navbar {
   font-size: 20px;
@@ -26,28 +25,22 @@
   transition: 0.3s;
 }
 
-.scrolled {
-  background-color: rgba(22, 22, 22, 0.9);
-  transition: 0.3s ease-in-out;
-  color: #e2e2e2;
-}
-.scrolled button {
-  background-color: #8d8c8c;
-}
-.scrolled button span {
-  color: #e2e2e2;
-}
-.scrolled a {
-  color: #e2e2e2;
-}
-
+/* .scrolled{
+    background-color: rgba(22, 22, 22, 0.9);
+    transition: .3s ease-in-out;
+    color: #e2e2e2;
+    button{
+        background-color: #8d8c8c;
+        span{
+            color: #e2e2e2;
+        }
+    }
+    a{
+        color: #e2e2e2;
+    }
+} */
 .content {
-  background: url(/img/portada-desktop.JPG);
-  background-size: cover;
   height: 800px;
-  position: relative;
-  top: -80px;
-  z-index: 1;
 }
 .content img {
   width: 100%;
@@ -246,7 +239,7 @@
   .servicios-container .servicios .servicios-item {
     width: 350px;
     height: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
   .servicios-container .servicios .servicios-item h4 {
     margin-top: 20px;
